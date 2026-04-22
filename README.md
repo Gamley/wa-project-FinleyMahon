@@ -1,9 +1,8 @@
-# readme.md - Project Documentation
 
 **Your Name:** Finley Mahon  
 **Project:** Super Earth
-**Repository:** [Link to your GitHub repo]  
-**Live Site:** [GitHub Pages URL if deployed]  
+**Repository:** https://github.com/Gamley/wa-project-FinleyMahon
+**Live Site:** https://gamley.github.io/wa-project-FinleyMahon/
 **Completion Date:** 9/04/26
 
 ## 1. Project Overview
