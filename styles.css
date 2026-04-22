@@ -1,0 +1,283 @@
+/* template code from https://github.com/deweydex/HTML-CSS-SQL-JS */
+
+* {
+            font-family: "Times New Roman", Times, serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+/*
+===============================
+COLOURS
+===============================
+*/
+
+:root {
+    --main-color:#173c70;
+    --SE-second-colour: #82cfe7;
+    --SE-third-clour: #3eb2d7;
+    
+    --primary-bot-color: #ff6263;
+    --bot-second-color: #8b5a60;
+
+    --squids-main-colour: #6b3aba;
+    --squids-second-color: #ec70d7;
+    
+    --bugs-main-colour: #ffb900;
+    --bugs-second-color: #ff8331; 
+}
+
+/*
+===============================
+HEADER STYLE
+===============================
+*/
+header {
+    display: flex;
+    background-color: var(--main-color);
+    padding: 1rem 0;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid white;
+
+#head_text {
+    text-align: center;
+}    
+
+}
+header h1 {
+    font-size: 5rem;
+}
+header p {
+    font-size: 1rem;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+/*
+===============================
+MAIN STYLE
+===============================
+*/
+
+#SE {
+    background: linear-gradient(to top, var(--SE-second-colour) 25%, var(--SE-third-clour));
+}
+
+
+#Bots {
+background: linear-gradient(to top, var(--primary-bot-color) 25%, var(--bot-second-color));
+}
+
+#squids {
+background: linear-gradient(to top, var(--squids-main-colour) 25%, var( --squids-second-color));
+}
+
+#bugs {
+background: linear-gradient(to top, var(--bugs-second-color) 25%, var(--bugs-main-colour));
+}
+
+.lots_text {
+    text-align: center;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+#MO {
+    display:  flex;
+    background-image: url(Images/SE_back.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    border-color:  black;
+    padding: 2rem;
+    max-width: 700px;
+    margin: auto;
+    border-style: solid;
+    border-color: white;
+}
+
+#MO h2 {
+    color: white;
+}
+
+#MO p {
+    color: white;
+}
+
+
+#medel {
+    width: 100px;
+    height: 130px;
+    margin: 5px;
+}
+
+#Content {
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 2rem; margin-bottom: 2rem;
+    background-color: rgba(0, 0, 255, 0);
+    border-radius: 10px;
+} 
+
+img {
+    max-width: 250px;
+    max-height: 250px;
+    margin: 5px;
+}
+
+.info-card {
+    display:  flex;
+    background-image: url(Images/SE_back.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    border-color:  white;
+    padding: 2rem;
+    max-width: 700px;
+    margin: auto;
+    border: solid white;
+    margin-top: 5rem;
+}
+
+.info-card h2 {
+    color: white;
+}
+
+.info-card p {
+    color: white;
+}
+
+.this {
+    background-image: url(Images/SE_back.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    border-color:  black;
+    padding: 2rem;
+    max-width: 700px;
+    margin: auto;
+    border-style: solid;
+    border-color: white;
+}
+
+.this p {
+    color: white;
+}
+
+
+.this label {
+    color: white;
+}
+
+
+/*
+===============================
+FAKE PAGE STYLE
+===============================
+*/
+
+#fake {
+    display: flex;
+    background-image: url(Images/SE_back.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 750px;
+    justify-content: center;
+}
+
+#fake_textbox {
+align-self: center;
+}
+
+#fake_textbox h2 {
+    color: white
+}
+
+
+/*
+===============================
+REVIEW STYLE
+===============================
+*/
+#web-review {
+    text-align: center;
+    padding: 2rem;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 10rem;
+}
+
+#web-review h3 {
+    text-align: left;
+}
+
+#web-review p {
+    font-size: 1rem;
+}
+
+#review{
+    background-color: black;
+    border-style:double;
+    border-color: lightgray;
+}
+
+#review p {
+    color: white;
+}
+
+/*
+===============================
+NAV STYLE
+===============================
+*/
+
+.Nav-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 5rem;
+}
+   
+
+.Nav-card {
+    width: 400px;
+    height: 350px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1.5rem;
+    background-color: #f9fafb;
+}
+
+.Nav-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: white;
+}
+
+/*
+===============================
+FOOTER STYLE
+===============================
+*/
+
+ #footer {
+            background-color: var(--main-color);
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            border-top: 2px solid white;
+            
+        }
+        
+.link {
+    color: white
+
+}
